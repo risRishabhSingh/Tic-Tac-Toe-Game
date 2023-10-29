@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WinnerofGame{
+    color: #d60b0b;
+    top: 110px;
+    position: absolute;
+    font-size: 200px;
+}
+.btnwinner{
+    color: #e4f1ff;
+    background-color: #0c2b62;
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    border: none;
+    outline: none;
+}
+.btnwinner:active{
+    transform: scale(0.95);
+}
