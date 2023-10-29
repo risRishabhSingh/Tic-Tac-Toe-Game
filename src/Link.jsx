@@ -1,17 +1,17 @@
 import React from 'react'
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { Routes,Route, HashRouter } from 'react-router-dom'
 import Game from './Game'
 import Winner from './Winner'
 
 
 const Link = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
             <Route path='/Winner/:player' element = {<Winner/>}></Route>
             <Route path="/" element = {<Game/>}></Route>
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
